@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BizTalkDeploy.iml" filepath="$PROJECT_DIR$/BizTalkDeploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BizTalkDeployAgent/BizTalkDeployAgent.iml" filepath="$PROJECT_DIR$/BizTalkDeployAgent/BizTalkDeployAgent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BizTalkDeployCommon/BizTalkDeployCommon.iml" filepath="$PROJECT_DIR$/BizTalkDeployCommon/BizTalkDeployCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BizTalkDeployServer/BizTalkDeployServer.iml" filepath="$PROJECT_DIR$/BizTalkDeployServer/BizTalkDeployServer.iml" />
+    </modules>
+  </component>
+</project>
+
