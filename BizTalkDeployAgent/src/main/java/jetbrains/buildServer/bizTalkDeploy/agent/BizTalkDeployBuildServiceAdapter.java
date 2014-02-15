@@ -9,6 +9,11 @@ import org.jetbrains.annotations.NotNull;
  * Created by Administrator on 08-01-14.
  */
 public class BizTalkDeployBuildServiceAdapter extends BuildServiceAdapter {
+
+
+    public BizTalkDeployBuildServiceAdapter() {
+    }
+
     @NotNull
     @Override
     public ProgramCommandLine makeProgramCommandLine() throws RunBuildException {
