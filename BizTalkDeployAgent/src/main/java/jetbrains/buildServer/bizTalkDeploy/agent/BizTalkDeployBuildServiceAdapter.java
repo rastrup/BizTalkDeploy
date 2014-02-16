@@ -19,4 +19,6 @@ public class BizTalkDeployBuildServiceAdapter extends BuildServiceAdapter {
     public ProgramCommandLine makeProgramCommandLine() throws RunBuildException {
         return null;
     }
+
+
 }

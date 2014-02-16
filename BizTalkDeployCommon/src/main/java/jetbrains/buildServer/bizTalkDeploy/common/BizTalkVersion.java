@@ -31,9 +31,9 @@ public enum BizTalkVersion {
     private final String _productName;
     private final int _order;
 
-    BizTalkVersion(final String technicalVersionPrefix, final String displayName, int order) {
-        _productVersion = technicalVersionPrefix;
-        _productName = displayName;
+    BizTalkVersion(final String productVersion, final String productName, int order) {
+        _productVersion = productVersion;
+        _productName = productName;
         _order = order;
     }
 
@@ -45,11 +45,6 @@ public enum BizTalkVersion {
     @NotNull
     public String getProductName() {
         return _productName;
-    }
-
-    @Nullable
-    public Requirement CreateRequirement(){
-        return new Requirement(BizTalkDeployConstants.BIZTALK_VERSION_PROPERTY, getProductVersion(), RequirementType.STARTS_WITH);
     }
 
     public static Collection<BizTalkVersion> GetThisOrNewer(@NotNull final BizTalkVersion targetVersion){
